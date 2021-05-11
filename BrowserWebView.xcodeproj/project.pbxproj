@@ -15,6 +15,8 @@
 		7436A9D7264A648D006E398E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7436A9D5264A648D006E398E /* LaunchScreen.storyboard */; };
 		7436A9E2264A648D006E398E /* BrowserWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7436A9E1264A648D006E398E /* BrowserWebViewTests.swift */; };
 		7436A9ED264A648D006E398E /* BrowserWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7436A9EC264A648D006E398E /* BrowserWebViewUITests.swift */; };
+		7436A9FE264A6576006E398E /* WebFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7436A9FD264A6576006E398E /* WebFileViewController.swift */; };
+		7436AA08264A664B006E398E /* webFile.html in Resources */ = {isa = PBXBuildFile; fileRef = 7436AA07264A664B006E398E /* webFile.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7436A9E8264A648D006E398E /* BrowserWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7436A9EC264A648D006E398E /* BrowserWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserWebViewUITests.swift; sourceTree = "<group>"; };
 		7436A9EE264A648D006E398E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7436A9FD264A6576006E398E /* WebFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebFileViewController.swift; sourceTree = "<group>"; };
+		7436AA07264A664B006E398E /* webFile.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webFile.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				7436A9CA264A648C006E398E /* AppDelegate.swift */,
 				7436A9CC264A648C006E398E /* SceneDelegate.swift */,
 				7436A9CE264A648C006E398E /* ViewController.swift */,
+				7436AA07264A664B006E398E /* webFile.html */,
 				7436A9D0264A648C006E398E /* Main.storyboard */,
+				7436A9FD264A6576006E398E /* WebFileViewController.swift */,
 				7436A9D3264A648D006E398E /* Assets.xcassets */,
 				7436A9D5264A648D006E398E /* LaunchScreen.storyboard */,
 				7436A9D8264A648D006E398E /* Info.plist */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7436A9D7264A648D006E398E /* LaunchScreen.storyboard in Resources */,
+				7436AA08264A664B006E398E /* webFile.html in Resources */,
 				7436A9D4264A648D006E398E /* Assets.xcassets in Resources */,
 				7436A9D2264A648C006E398E /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 				7436A9CF264A648C006E398E /* ViewController.swift in Sources */,
 				7436A9CB264A648C006E398E /* AppDelegate.swift in Sources */,
 				7436A9CD264A648C006E398E /* SceneDelegate.swift in Sources */,
+				7436A9FE264A6576006E398E /* WebFileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

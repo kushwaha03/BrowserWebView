@@ -6,14 +6,27 @@
 //
 
 import UIKit
+import WebKit
+class ViewController: UIViewController, WKNavigationDelegate {
+    //    var webView: WKWebView!
+        @IBOutlet weak var webView: WKWebView!
 
-class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    //    override func loadView() {
+    //        webView = WKWebView()
+    //        webView.navigationDelegate = self
+    //        view = webView
+    //    }
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            webView.navigationDelegate = self
+
+            let url = URL(string: "https://www.dropbox.com/home?preview=webFile.html")!
+            webView.load(URLRequest(url: url))
+            webView.allowsBackForwardNavigationGestures = true
+        }
+
+
     }
-
-
-}
 
